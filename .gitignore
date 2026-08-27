@@ -11,3 +11,6 @@ Thumbs.db
 # エディタ設定
 .vscode/
 .idea/
+
+# データファイル
+volume/contacts.csv
