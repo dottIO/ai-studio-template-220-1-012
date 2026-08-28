@@ -12,5 +12,6 @@ Thumbs.db
 .vscode/
 .idea/
 
-# データファイル
-volume/contacts.csv
+# アプリが書き出すデータ（volume/.gitkeep 以外は追跡しない）
+volume/*
+!volume/.gitkeep
