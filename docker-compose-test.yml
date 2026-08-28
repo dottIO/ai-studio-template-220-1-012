@@ -1,0 +1,12 @@
+services:
+  frontend-test:
+    build: 
+      context: ./frontend
+      dockerfile: Dockerfile.prettier
+    command: npx eslint .
+
+  backend-test:
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile.prettier
+    command: npx eslint .

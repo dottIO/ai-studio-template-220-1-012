@@ -11,3 +11,7 @@ Thumbs.db
 # エディタ設定
 .vscode/
 .idea/
+
+# アプリが書き出すデータ（volume/.gitkeep 以外は追跡しない）
+volume/*
+!volume/.gitkeep

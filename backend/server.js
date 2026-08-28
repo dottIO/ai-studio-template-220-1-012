@@ -29,7 +29,7 @@ const server = http.createServer((req, res) => {
 
     req.on("end", () => {
       try {
-        // Issue 5: 電話番号を受け取る
+        // Issue 5: 電話番号(tel)を受け取る
         const { name, email, message } = JSON.parse(body);
 
         let line = `${new Date().toISOString()}`;
